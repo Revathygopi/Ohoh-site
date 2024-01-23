@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CURD</title>
+    <link rel="stylesheet" href="curd.css" />
+  </head>
+  <body>
+    <!-- CLIENT LISTS -->
+    <header class="clients-list">
+      <h2>Client List</h2>
+    </header>
+    <div class="lists">
+      <div class="client-1">
+        <h5>JOHN</h5>
+        <button id="client1-btn" onclick="client1()">View Details</button>
+        <p id="client1-email"></p>
+        <p id="client1-phnno"></p>
+      </div>
+      <div class="client-2">
+        <h5>MICHAEL</h5>
+        <button id="client1-btn" onclick="client2()">View Details</button>
+        <p id="client2-email"></p>
+        <p id="client2-phnno"></p>
+      </div>
+      <div class="client-3">
+        <h5>EMILY</h5>
+        <button id="client3-btn" onclick="client3()">View Details</button>
+        <p id="client3-email"></p>
+        <p id="client3-phnno"></p>
+      </div>
+      <div class="client-4">
+        <h5>EMMA</h5>
+        <button id="client4-btn" onclick="client4()">View Details</button>
+        <p id="client4-email"></p>
+        <p id="client4-phnno"></p>
+      </div>
+      <div class="client-5">
+        <h5>CHARLES</h5>
+        <button id="client5-btn" onclick="client5()">View Details</button>
+        <p id="client5-email"></p>
+        <p id="client5-phnno"></p>
+      </div>
+      <div class="client-6">
+        <h5>DIMPLE</h5>
+        <button id="client6-btn" onclick="client6()">View Details</button>
+        <p id="client6-email"></p>
+        <p id="client6-phnno"></p>
+      </div>
+      <div class="client-7">
+        <h5>YASHANA</h5>
+        <button id="client7-btn" onclick="client7()">View Details</button>
+        <p id="client7-email"></p>
+        <p id="client7-phnno"></p>
+      </div>
+    </div>
+    <footer class="client-list-footer">
+      <p>2024@ Client List</p>
+    </footer>
+
+    <!-- CLIENT INFORMATION -->
+    <header class="client-info">
+      <h2>Clients Information</h2>
+    </header>
+    <form class="client-information">
+      <label for="fname">First Name</label>
+      <input type="text" name="fname" /><br />
+      <label for="lname">Last Name</label>
+      <input type="text" name="lname" /><br />
+      <label for="mail">email-Id</label>
+      <input type="text" name="mail" /><br />
+      <label for="pno">Phn-No</label>
+      <input type="text" name="pno" /><br />
+      <label for="address">Address</label>
+      <input type="text" name="address" /><br />
+      <button>Submimt</button>
+    </form>
+    <footer class="client-info-footer">
+      <p>2024 @ clients information</p>
+    </footer>
+
+    <!-- UPDATE CLIENT INFORMATION -->
+    <header class="edit-info">
+      <h2>Update Client Information</h2>
+      <p>you can edit your information, if you gave any wrong details</p>
+    </header>
+
+    <form class="edit-information">
+      <label for="fname">First Name</label>
+      <input type="text" name="fname" /><br />
+      <label for="lname">Last Name</label>
+      <input type="text" name="lname" /><br />
+      <label for="mail">email-Id</label>
+      <input type="text" name="mail" /><br />
+      <label for="pno">Phn-No</label>
+      <input type="text" name="pno" /><br />
+      <label for="address">Address</label>
+      <input type="text" name="address" /><br />
+      <button>Submit</button>
+    </form>
+    <footer class="edit-info-footer">
+      <p>2024 @ updated clients information</p>
+    </footer>
+    <script src="curd.js"></script>
+  </body>
+</html>

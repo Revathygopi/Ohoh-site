@@ -1,0 +1,113 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: lightblue;
+
+}
+
+.clients-list h2 {
+    text-align: center;
+    color: darkslateblue;
+
+}
+
+.lists {
+    text-align: center;
+    background-color: lightblue;
+}
+
+.lists h5 {
+    color: fuchsia;
+}
+
+.lists button {
+    background-color: lightsalmon;
+    color: crimson;
+    padding: 5px;
+    border-radius: 5px;
+    ;
+}
+
+.lists button:hover {
+    background-color: aquamarine;
+
+}
+
+.client-list-footer {
+    background-color: cadetblue;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+form {
+    text-align: center;
+}
+
+.client-info h2 {
+    text-align: center;
+    color: darkslateblue;
+}
+
+.client-information input {
+    margin: 15px;
+    padding: 3px;
+}
+
+.client-information input:hover {
+    background-color: cadetblue;
+}
+
+.client-information button {
+    padding: 5px;
+    margin: 10px;
+    color: deeppink;
+}
+
+.client-information button:hover {
+    background-color: aquamarine;
+}
+
+.client-info-footer {
+    background-color: cadetblue;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.edit-info h2 {
+    text-align: center;
+    color: darkslateblue;
+}
+
+.edit-info p {
+    text-align: center;
+    color: darkslateblue;
+}
+
+.edit-information input {
+    margin: 15px;
+    padding: 3px;
+}
+
+.edit-information input:hover {
+    background-color: cornflowerblue;
+}
+
+.edit-information button {
+    padding: 5px;
+    margin: 10px;
+    color: rgb(252, 20, 252);
+}
+
+.edit-information button:hover {
+    background-color: rgb(255, 127, 191);
+}
+
+.edit-info-footer {
+    background-color: cadetblue;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+}
